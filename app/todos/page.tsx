@@ -1,12 +1,11 @@
 import React from 'react'
-import TodosList from './TodosList'
 
-export default function page() {
+export default function Todos() {
   return (
     <div>
-        {/* @ts-ignore */}
-    
-        <TodosList />
+      <h1>This is where the Todos </h1>
     </div>
   )
 }
+
+

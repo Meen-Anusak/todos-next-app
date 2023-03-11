@@ -18,7 +18,7 @@ export default async function TodosList() {
             {
                 todos.map((todo) => (
                     <p className=" text-black " key={todo.id}>
-                        <Link href={`/todos/${todo.id}`}> Todo: {todo.title}</Link>
+                        <Link href={`/todos/${todo.id}`}> Todo: {todo.id}</Link>
                     </p>
                 ))
             }
